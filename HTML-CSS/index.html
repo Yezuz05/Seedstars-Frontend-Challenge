@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <div data-role="page" id="pageone">
+        <div data-role="panel" id="myPanel" data-display="reveal" data-dismissible='false'>
+            <div class="panel_header" style="height: 153px;">
+                <div class="user-box">
+                    <img src="images/SideMenu/user.jpg" class="img-circle" alt="">
+                    <span class="white regular" style="font-size: 18px;">
+                        John Doe
+                    </span>
+                </div>
+
+            </div>
+            <div>
+                <ul id="panel-list">
+                    <li>
+                        <img src="images/SideMenu/ic-dashboard.svg" alt="">
+                        <a href="" class="pixel-16 regular">Dashboard</a>
+                    </li>
+                    <li>
+                        <img src="images/SideMenu/ic-accounts.svg" alt="">
+                        <a href="" class="pixel-16 regular">Accounts</a>
+                    </li>
+                    <li>
+                        <img src="images/SideMenu/ic-cards.svg" alt="">
+                        <a href="" class="pixel-16 regular">Cards</a>
+                    </li>
+                    <li>
+                        <img src="images/SideMenu/ic-payments.svg" alt="">
+                        <a href="" class="pixel-16 regular">Payments</a>
+                    </li>
+                    <li>
+                        <img src="images/SideMenu/ic-transfers.svg" alt="">
+                        <a href="" class="pixel-16 regular">Transfers</a>
+                    </li>
+                    <li>
+                        <img src="images/SideMenu/ic-airtime.svg" alt="">
+                        <a href="" class="pixel-16 regular">Airtime</a>
+                    </li>
+                    <li>
+                        <img src="images/SideMenu/ic-settings.svg" alt="">
+                        <a href="" class="pixel-16 regular">Settings</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div data-role="header" class="color" style="background-color: #77439e">
+            <div style="margin: 8.5px;" class="head">
+                <a href="#myPanel" id="menu" class="pull-left"><span class="glyphicon glyphicon-menu-hamburger" style="color: white;"></span></a>
+                <h1 class="text-center regular white" style="display: inline; margin-left: 120px; font-size: 20px;">Dashboard</h1>
+            </div>
+
+        </div>
+
+        <div data-role="main" class="ui-content">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div style="margin-bottom: 50px;">
+                            <h4 class="text-center white regular" style="font-size: 18px;">Balance</h4>
+                            <h1 class="text-center white semi-bold" style="font-size: 32px; line: 119%">&#x20A6 979153.36</h1>
+                            <h5 class="text-center white semi-bold" style="font-size: 24px;">16.500SP</h5>
+                        </div>
+
+                    </div>
+
+                    <div class="item">
+                        <h5>Rubbish</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="color medium white" style=" height: 42px;">
+                <p class="color pixels-14" style="padding: 15px 5px 3px 10px;">Latest Transactions</p>
+            </div>
+
+
+            <table class="table table-striped">
+                <!--<thead>
+                    <tr>
+                        <th></th>
+                    </tr>
+                </thead>-->
+                <tbody>
+                    <tr>
+                        <td class="semi-bold black pixels-16">
+                            ATM LAGOS
+                            <p class="black medium pixels-14">Today</p>
+                        </td>
+                        <td class="semi-bold red pixels-16">
+                            - &#x20A6 450
+                            <p class="black medium pixels-14">
+                                Bank Withdraw
+
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="even">
+                        <td class="semi-bold black pixels-16">
+                            ATM LAGOS
+                            <p class="black medium pixels-14">Today</p>
+                        </td>
+                        <td class="semi-bold green pixels-16">
+                            + &#x20A6 450
+                            <p class="black medium pixels-14">
+                                Bank Withdraw
+
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="semi-bold black pixels-16">
+                            003 645 6548 65
+                            <p class="black medium pixels-14">01/06/2015</p>
+                        </td>
+                        <td class="semi-bold pixels-16 red">
+                            - 100 SP
+                            <p class="black medium pixels-14">
+                                Airtime Recharge
+
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="even">
+                        <td class="semi-bold black pixels-16">
+                            John Doe
+                            <p class="black medium pixels-14">31/05/2015</p>
+                        </td>
+                        <td class="semi-bold green pixels-16">
+                            + &#x20A6 450
+                            <p class="black medium pixels-14">
+                                Transfer
+
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="semi-bold black">
+                            003 645 6548 65
+                            <p class="black medium pixels-14">10/05/2015</p>
+                        </td>
+                        <td class="semi-bold red">
+                            - 100 SP
+                            <p class="black medium pixels-14">
+                                Airtime Recharge
+
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="even">
+                        <td class="semi-bold black">
+                            003 645 6548 65
+                            <p class="black medium pixels-14">5/05/2015</p>
+                        </td>
+                        <td class="semi-bold red">
+                            - 200 SP
+                            <p class="black medium pixels-14">
+                                Airtime Recharge
+
+                            </p>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+</body>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/jquery.touchSwipe.min.js"></script>
+<script src="js/index.js"></script>
+
+</html>
