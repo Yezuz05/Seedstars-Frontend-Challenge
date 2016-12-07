@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Proxima Nova Soft Md";
+    src: url(../fonts/ProximaNovaSoft/ProximaNovaSoft-Medium.otf);
+}
+
+@font-face {
+    font-family: "Proxima Nova Soft";
+    src: url(../fonts/ProximaNovaSoft/ProximaNovaSoft-Regular.otf);
+}
+
+@font-face {
+    font-family: "Proxima Nova Soft Sb";
+    src: url(../fonts/ProximaNovaSoft/ProximaNovaSoft-Semibold.otf);
+}
+
+page-header {
+    display: block;
+    margin: 0 auto;
+}
+
+.ui-header {
+    height: 56px;
+}
+
+.ui-content {
+    padding: 0px;
+}
+
+.carousel {
+    background-color: #9759C6;
+    border-color: #9759C6;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.color {
+    background-color: #77439e;
+    border-color: #9759C6;
+}
+
+#menu {
+    font-size: 30px;
+    display: inline;
+}
+
+.medium {
+    font-family: Proxima Nova Soft Md;
+}
+
+.regular {
+    font-family: Proxima Nova Soft;
+}
+
+.semi-bold {
+    font-family: Proxima Nova Soft Sb;
+}
+
+.head {
+    display: block;
+    margin: 0 auto;
+}
+
+.white {
+    color: white;
+}
+
+tr {
+    height: 65px;
+}
+
+.black {
+    color: #959595;
+}
+
+.green {
+    color: #16967a;
+}
+
+.red {
+    color: #e44235;
+}
+
+.pixels-14 {
+    font-size: 14px;
+}
+
+.pixels-16 {
+    font-size: 16px;
+}
+
+.even {
+    background-color: #f1f1f1;
+}
+
+.panel_header {
+    background-image: url(../images/SideMenu/menu-header-bg.png)
+}
+
+.img-circle {
+    height: 50px;
+}
+
+.user-box {
+    padding: 70px 5px 70px 20px;
+}
+
+#panel-list {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#panel-list>li {
+    height: 55px;
+    color: #8d52ba;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+#panel-list>li:hover {
+    background-color: #f7f0fc;
+}
